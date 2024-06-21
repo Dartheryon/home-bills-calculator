@@ -1,11 +1,8 @@
-import {Button} from "@nextui-org/button";
-import './App.css'
+import Home from './pages/Home.tsx';
 const App = () => {
   return (
       <>
-        <Button color="primary">
-          NextUI Button
-        </Button>
+        <Home />
       </>
   )
 }
